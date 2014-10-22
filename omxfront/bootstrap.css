@@ -2469,25 +2469,33 @@ tbody.collapse.in {
   .hidden-xs {
     display: none !important;
   }
-  .controlbutton{font-size:1.25em;
-  padding:10px 0px;}
+  .controlbutton{font-size:2em;
+  padding:35px 0px;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
   }
-  .controlbutton{font-size:1.75em;}
+.controlbutton{font-size:2em;
+padding:45px 0px;}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
+  }
+  .controlbutton{font-size:2em;
+  padding:35px 0px;}
   }
 }
 @media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;
   }
-}
+  .controlbutton{font-size:2em;
+  padding:55px 0px;}
+  }
+  
+
 .visible-print {
   display: none !important;
 }
