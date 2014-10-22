@@ -160,22 +160,17 @@ body {
 
 
 .element {
-  padding:10px;
+  padding:20 10px;
   width: 110px;
-  height: 100px;
   margin: 5px;
   float: left;
   overflow: hidden;
   position: relative;
-  background: #888;
   color: #222;
-  -webkit-border-radius: 1.2em;
-      -moz-border-radius: 1.2em;
-          border-radius: 1.2em;
 }
 
-.element.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
-.element.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element.alkali          { background: #B66D00; }
+.element.alkaline-earth  { background: #DF540E; }
 .element.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
 .element.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
 .element.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
