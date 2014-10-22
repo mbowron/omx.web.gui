@@ -1,0 +1,16 @@
+
+.controlbutton{
+  width:100%;
+  padding:20px 0px;
+  background-color:#007950;
+  color:#fff;
+  text-align:center;
+  font-size:2.5em;
+  line-height:1em;
+  margin-top:30px;
+}
+
+.message_panel{
+  background-color:#DF540E;
+  padding:10px 20px;
+}
