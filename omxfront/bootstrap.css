@@ -2465,6 +2465,23 @@ tbody.collapse.in {
     display: inline-block !important;
   }
 }
+
+
+
+
+.directory{
+      background: #DF540E;
+      font-weight:bold;
+      }
+        
+.file{
+      background: #B66D00;
+      }
+
+.holder{width:200px;}
+
+
+
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
@@ -2472,6 +2489,7 @@ tbody.collapse.in {
   .controlbutton{font-size:2em;
   padding:35px 0px;}
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
@@ -2479,6 +2497,7 @@ tbody.collapse.in {
 .controlbutton{font-size:2em;
 padding:45px 0px;}
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
@@ -2487,6 +2506,7 @@ padding:45px 0px;}
   padding:35px 0px;}
   }
 }
+
 @media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;
@@ -2496,6 +2516,3 @@ padding:45px 0px;}
   }
   
 
-.visible-print {
-  display: none !important;
-}

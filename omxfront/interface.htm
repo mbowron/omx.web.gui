@@ -78,11 +78,13 @@
 					jQuery.each(data, function(index) { // access current object (in iteration) using this
 						// orange: element alkaline-earth metal width2
 						// red: element alkali metal width2
-						var type = this.type == "file" ? "element alkali metal width2" : "element alkaline-earth metal width2";
+						var type = this.type == "file" ? "element metal file holder" : "element metal directory holder";
 						var aclass = this.type == "file" ? "player" : "navigator";
 						
+
 						var $newItem = $("<a class=\""+aclass+"\" data-relative=\""+this.path+"\"></a>");
 						$newItem.append("<div id=\""+index+"\" class=\"nagivateentity "+type+"\"><h2>"+this.name+"</h2></div>");
+
 						$('#navigation').append($newItem);
 					});
 					
