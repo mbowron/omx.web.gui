@@ -881,10 +881,10 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px dotted #32669D;
 }
 .sr-only {
   position: absolute;
@@ -2494,8 +2494,8 @@ tbody.collapse.in {
   .hidden-sm {
     display: none !important;
   }
-.controlbutton{font-size:2em;
-padding:45px 0px;}
+.controlbutton{font-size:3em;
+padding:35px 0px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

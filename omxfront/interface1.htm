@@ -11,7 +11,7 @@
 
 <title>RaspPi OMX GUI</title>
 	<script type="text/javascript">	
-		var navigationBase = '/path/';
+		<!--var navigationBase = '/path/';
 		var playBase = '/play/';
 		
 		function output(origin, message) {
@@ -171,7 +171,7 @@
 					$('#navigationback').trigger('click');
 					break;
 			}
-		});
+		});-->
 	</script>
 </head>
 <body>
@@ -186,35 +186,35 @@
 		<div id="controls" style="height:auto"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="pause" href="/pause">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-pause"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="seekb" href="/seek-30">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-backward"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="seekf" href="/seek+30">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-forward"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="stop" href="/stop">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-stop"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="seekbl" href="/seek-600">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-fast-backward"></span>
@@ -224,7 +224,7 @@
 
 
 
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="seekfl" href="/seek+600">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-fast-forward"></span>
@@ -232,42 +232,42 @@
 					</a>
 				</div>
 
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="prevsubs" href="/prevsubs">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-indent-right"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="togglesubs" href="/togglesubs">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-align-justify"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="nextsubs" href="/nextsubs">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-indent-left"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="volumedown" href="/volumedown">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-volume-down"></span><br />
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a class="control" id="volumeup" href="/volumeup">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-volume-up"></span>
 						</div>
 					</a>
 				</div>
-				<div class="col-xs-4  col-md-2">
+				<div class="col-xs-4 col-sm-3 col-md-2">
 					<a id="navigationback" href="/">
 						<div class="controlbutton">
 							<span class="glyphicon glyphicon-circle-arrow-left"></span>
@@ -279,11 +279,6 @@
 		</div>
 		<hr style="margin-bottom:20px"/>
 
-	<div class="container">
-		<div id="navigation" class="variable-sizes">
-			<!-- Will be filled with navigation elements -->
-		</div>
-	</div>
 	</div>
 
 	<div id="footer">
