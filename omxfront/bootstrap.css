@@ -2496,7 +2496,15 @@ tbody.collapse.in {
   }
 .controlbutton{font-size:3em;
 padding:35px 0px;}
+
+.holder{width:295px;}
+h2{
+  font-size:28pt;
 }
+.element{height:110px;}
+}
+
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
