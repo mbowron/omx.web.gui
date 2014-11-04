@@ -2478,7 +2478,8 @@ tbody.collapse.in {
       background: #B66D00;
       }
 
-.holder{width:200px;}
+.holder{
+  height:100px;}
 
 
 
@@ -2497,11 +2498,11 @@ tbody.collapse.in {
 .controlbutton{font-size:3em;
 padding:35px 0px;}
 
-.holder{width:295px;}
+
 h2{
   font-size:28pt;
 }
-.element{height:110px;}
+.holder{height:110px;}
 }
 
 

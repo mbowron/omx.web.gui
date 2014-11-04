@@ -78,11 +78,11 @@
 					jQuery.each(data, function(index) { // access current object (in iteration) using this
 						// orange: element alkaline-earth metal width2
 						// red: element alkali metal width2
-						var type = this.type == "file" ? "element metal file holder" : "element metal directory holder";
+						var type = this.type == "file" ? "file holder" : "directory holder";
 						var aclass = this.type == "file" ? "player" : "navigator";
-						
+						var hclass = "col-xs-4  col-md-3";
 
-						var $newItem = $("<a class=\""+aclass+"\" data-relative=\""+this.path+"\"></a>");
+						var $newItem = $("<div class=\""+hclass+"\"><a class=\""+aclass+"\" data-relative=\""+this.path+"\"></a></div>");
 						$newItem.append("<div id=\""+index+"\" class=\"nagivateentity "+type+"\"><h2>"+this.name+"</h2></div>");
 
 						$('#navigation').append($newItem);
@@ -90,7 +90,6 @@
 					
 					bindNavigators();
 					bindPlayers();
-					initIsotope();
 				}
 			});
 		}
@@ -277,7 +276,7 @@
 		<hr style="margin-bottom:20px"/>
 
 	<div class="container-fluid">
-		<div id="navigation" class="variable-sizes">
+		<div id="navigation">
 			<!-- Will be filled with navigation elements -->
 		</div>
 	</div>
