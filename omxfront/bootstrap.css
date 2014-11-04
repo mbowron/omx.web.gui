@@ -884,7 +884,7 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
   border: 0;
-  border-top: 1px dotted #32669D;
+  border-top: 2px dotted #32669D;
 }
 .sr-only {
   position: absolute;

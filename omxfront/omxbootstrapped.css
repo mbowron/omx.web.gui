@@ -12,4 +12,9 @@
 
 .message_panel{
   padding:10px 20px;
+  font-size:1.5em;
+}
+
+.footer{
+  font-size:1.2em;
 }
