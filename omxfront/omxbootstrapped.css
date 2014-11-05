@@ -45,6 +45,7 @@ a .holder {color:#fff;}
 .item{
   font-weight:bold;
   height:100px !important;
+  overflow-y: scroll;
 }
  
 .item:before {
