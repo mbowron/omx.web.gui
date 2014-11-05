@@ -3,6 +3,9 @@
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
+
+ 
 
 /*!
  * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=28645e450263056a12f0)
@@ -10,7 +13,7 @@
  */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -820,7 +823,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #fff;
@@ -2469,17 +2472,6 @@ tbody.collapse.in {
 
 
 
-.directory{
-      background: #DF540E;
-      font-weight:bold;
-      }
-        
-.file{
-      background: #B66D00;
-      }
-
-.holder{
-  height:100px;}
 
 
 
@@ -2500,9 +2492,9 @@ padding:35px 0px;}
 
 
 h2{
-  font-size:28pt;
+  font-size:2em;
 }
-.holder{height:110px;}
+.holder{height:120px;}
 }
 
 

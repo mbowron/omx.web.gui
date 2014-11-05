@@ -1,3 +1,11 @@
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.5em;
+  font: inherit;
+  vertical-align: baseline;}
+
 
 .controlbutton{
   width:100%;
@@ -17,4 +25,38 @@
 
 .footer{
   font-size:1.2em;
+}
+
+.directory{
+      background: #B63D00;
+
+      }
+        
+.file{
+      background: #B66D00;
+      }
+
+.holder{
+  margin-top:30px;
+  cursor:pointer;}
+  
+a .holder {color:#fff;}
+
+.item{
+  font-weight:bold;
+  height:100px !important;
+}
+ 
+.item:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+h2  {    vertical-align:middle ;
+  display: inline-block;
+  padding:0px 10px;
+  font-size:1.5em;
+
 }
